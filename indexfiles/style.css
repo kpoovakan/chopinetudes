@@ -7,12 +7,22 @@
     --colorDark: #D44D5C;
     /* color palette: https://coolors.co/palette/773344-e3b5a4-f5e9e2-0b0014-d44d5c */
 }
+@font-face {
+    font-family: "Chopin Script";
+    src: url("chopinscript.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
 
 body {
     margin: 0;
     padding: 0;
     background-color: var(--colorBackground);
     color: var(--colorForeground);
+    font-family: "Cause", handwriting, cursive, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
     a:link, a:visited {
         color: var(--colorAccent);
         text-decoration: underline;
@@ -20,4 +30,10 @@ body {
     a:hover {
         text-decoration: none;
     }
+}
+
+h1 {
+    font-family: "Chopin Script";
+    color: var(--colorAccent);
+    font-size: 71px;
 }
