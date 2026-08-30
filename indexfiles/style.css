@@ -25,10 +25,10 @@ body {
     font-style: normal;
     a:link, a:visited {
         color: var(--colorAccent);
-        text-decoration: underline;
+        text-decoration: none;
     }
     a:hover {
-        text-decoration: none;
+        text-decoration: underline;
     }
 }
 
@@ -36,4 +36,66 @@ h1 {
     font-family: "Chopin Script";
     color: var(--colorAccent);
     font-size: 71px;
+    text-align: right;
+    margin: 31px;
+    margin-bottom: 13px;
+}
+
+h2 {
+    font-family: "Chopin Script";
+    color: var(--colorAccent);
+    font-size: 31px;
+    text-align: right;
+    margin: 31px;
+}
+
+h3 {
+    font-family: inherit;
+    font-weight: inherit;
+    font-style: inherit;
+    color: inherit;
+    text-align: right;
+    margin: 31px;
+    margin-top: 0;
+    a:link, a:visited, a:hover {
+        color: var(--colorForeground);
+        font-weight: 600;
+    }
+}
+
+.content {
+    width: min(80vw, 1000px);
+    margin: 13px auto;
+}
+
+.opusMenu {
+    margin: 0 auto;
+    width: fit-content;
+    display: block;
+}
+
+.opusMenu img {
+    display: inline;
+    margin: 3.14%;
+    width: 25%;
+}
+
+.opusMenu img:hover {
+    cursor: pointer;
+    transform: scale(1.314);
+}
+
+.listing {
+    a:link, a:visited {
+        color: var(--colorForeground);
+    }
+    a:hover {
+        color: var(--colorAccent);
+    }
+}
+
+.music {
+    width: min(80vw, 1000px);
+    height: min(10vw, 125px);
+    margin: 13px auto;
 }

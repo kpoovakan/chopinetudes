@@ -9,3 +9,4 @@ This is an experimental music player for Chopin's piano etudes, to explore ifram
 * Favicon (music note) icon created by Newbzy <small>[source](https://commons.wikimedia.org/wiki/File:Music_note.svg)</small>
 * The heading font used in this web app was (Chopin Script)[https://www.1001fonts.com/chopin-script-font.html] (very fitting!) Its license and copyright is owned by someone else and is not part of ChopinEtude's public domain Unlicense
 * The main font used in this web app was (Cause)[https://github.com/xconsau/Cause]
+* The base page icons for the buttons used to organize etudes by opus was created by Google <small>[source](https://commons.wikimedia.org/wiki/File:Android_Emoji_1f4c3.svg)</small>
