@@ -1,6 +1,23 @@
 @charset "UTF-8";
+:root {
+    --colorBackground: #F5E9E2;
+    --colorForeground: #0B0014;
+    --colorAccent: #773344;
+    --colorLight: #E3B5A4;
+    --colorDark: #D44D5C;
+    /* color palette: https://coolors.co/palette/773344-e3b5a4-f5e9e2-0b0014-d44d5c */
+}
 
 body {
     margin: 0;
     padding: 0;
+    background-color: var(--colorBackground);
+    color: var(--colorForeground);
+    a:link, a:visited {
+        color: var(--colorAccent);
+        text-decoration: underline;
+    }
+    a:hover {
+        text-decoration: none;
+    }
 }
