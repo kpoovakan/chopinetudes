@@ -3,11 +3,63 @@ const appContent = document.getElementById("content");
 const appMusic = document.getElementById("music");
 window.addEventListener("load", mainMenu());
 var musicSources = `{
-    "op10no1":"https://commons.wikimedia.org/wiki/File:Chopin_-_Etude_Op._10,_No._1.mid?embedplayer=yes"
+    "op10no1":"https://commons.wikimedia.org/wiki/File:Chopin_-_12_%C3%89tudes,_Op._10_-_No._1_in_C_major_%27Waterfall%27_(Edward_Neeman).flac?embedplayer=yes",
+    "op10no2":"https://commons.wikimedia.org/wiki/File:Chopin_-_12_%C3%89tudes,_Op._10_-_No._2_in_A_minor_%27Chromatique%27_(Edward_Neeman).flac?embedplayer=yes",
+    "op10no3":"https://commons.wikimedia.org/wiki/File:Chopin_-_12_%C3%89tudes,_Op._10_-_No._3_in_E_major_%27Tristesse%27_(Edward_Neeman).flac?embedplayer=yes",
+    "op10no4":"https://commons.wikimedia.org/wiki/File:Chopin_-_12_%C3%89tudes,_Op._10_-_No._4_in_C-Sharp_minor_%27Torrent%27_(Edward_Neeman).flac?embedplayer=yes",
+    "op10no5":"https://commons.wikimedia.org/wiki/File:Chopin_-_12_%C3%89tudes,_Op._10_-_No._5_in_G-Flat_major_%27Black_Keys%27_(Edward_Neeman).flac?embedplayer=yes",
+    "op10no6":"https://commons.wikimedia.org/wiki/File:Chopin_-_12_%C3%89tudes,_Op._10_-_No._6_in_E-Flat_minor_%27Lament%27_(Edward_Neeman).flac?embedplayer=yes",
+    "op10no7":"https://commons.wikimedia.org/wiki/File:Chopin_-_12_%C3%89tudes,_Op._10_-_No._7_in_C_major_%27Toccata%27_(Edward_Neeman).flac?embedplayer=yes",
+    "op10no8":"https://commons.wikimedia.org/wiki/File:Chopin_-_12_%C3%89tudes,_Op._10_-_No._8_in_F_major_%27Sunshine%27_(Edward_Neeman).flac?embedplayer=yes",
+    "op10no9":"https://commons.wikimedia.org/wiki/File:Chopin_-_12_%C3%89tudes,_Op._10_-_No._9_in_F_minor_(Edward_Neeman).flac?embedplayer=yes",
+    "op10no10":"https://commons.wikimedia.org/wiki/File:Chopin_-_12_%C3%89tudes,_Op._10_-_No._10_in_A-Flat_major_(Edward_Neeman).flac?embedplayer=yes",
+    "op10no11":"https://commons.wikimedia.org/wiki/File:Chopin_-_12_%C3%89tudes,_Op._10_-_No._11_in_E-Flat_major_%27Arpeggio%27_(Edward_Neeman).flac?embedplayer=yes",
+    "op10no12":"https://commons.wikimedia.org/wiki/File:Chopin_-_12_%C3%89tudes,_Op._10_-_No._12_in_C_minor_%27Revolutionary%27_(Edward_Neeman).flac?embedplayer=yes",
+    "troisNouvelles1":"https://commons.wikimedia.org/wiki/File:Frederic_Chopin_-_Etude,_F_minor_no_opus.ogg?embedplayer=yes",
+    "troisNouvelles2":"https://commons.wikimedia.org/wiki/File:Frederic_Chopin_-_Etude,_Ab_major_no_opus.ogg?embedplayer=yes",
+    "troisNouvelles3":"https://commons.wikimedia.org/wiki/File:Frederic_Chopin_-_Etude,_Db_major_no_opus.ogg?embedplayer=yes",
+    "op25no1":"https://commons.wikimedia.org/wiki/File:Chopin_-_12_%C3%89tudes,_Op._25_-_No._1_in_A-Flat_major_%27Harp_Study%27_(Edward_Neeman).flac?embedplayer=yes",
+    "op25no2":"https://commons.wikimedia.org/wiki/File:Chopin_-_12_%C3%89tudes,_Op._25_-_No._2_in_F_minor_%27The_Bees%27_(Edward_Neeman).flac?embedplayer=yes",
+    "op25no3":"https://commons.wikimedia.org/wiki/File:Chopin_-_12_%C3%89tudes,_Op._25_-_No._3_in_F_major_%27The_Horseman%27_(Edward_Neeman).flac?embedplayer=yes",
+    "op25no4":"https://commons.wikimedia.org/wiki/File:Chopin_-_12_%C3%89tudes,_Op._25_-_No._4_in_A_minor_%27Paganini%27_(Edward_Neeman).flac?embedplayer=yes",
+    "op25no5":"https://commons.wikimedia.org/wiki/File:Chopin_-_12_%C3%89tudes,_Op._25_-_No._5_in_E_minor_%27Wrong_Note%27_(Edward_Neeman).flac?embedplayer=yes",
+    "op25no6":"https://commons.wikimedia.org/wiki/File:Chopin_-_12_%C3%89tudes,_Op._25_-_No._6_in_G-Sharp_minor_%27Thirds%27_(Edward_Neeman).flac?embedplayer=yes",
+    "op25no7":"https://commons.wikimedia.org/wiki/File:Chopin_-_12_%C3%89tudes,_Op._25_-_No._7_in_C-Sharp_minor_%27Cello%27_(Edward_Neeman).flac?embedplayer=yes",
+    "op25no8":"https://commons.wikimedia.org/wiki/File:Chopin_-_12_%C3%89tudes,_Op._25_-_No._8_in_D-Flat_major_%27Sixths%27_(Edward_Neeman).flac?embedplayer=yes",
+    "op25no9":"https://commons.wikimedia.org/wiki/File:Chopin_-_12_%C3%89tudes,_Op._25_-_No._9_in_G-Flat_major_%27Butterfly_Wings%27_(Edward_Neeman).flac?embedplayer=yes",
+    "op25no10":"https://commons.wikimedia.org/wiki/File:Chopin_-_12_%C3%89tudes,_Op._25_-_No._10_in_B_minor_%27Octave%27_(Edward_Neeman).flac?embedplayer=yes",
+    "op25no11":"https://commons.wikimedia.org/wiki/File:Chopin_-_12_%C3%89tudes,_Op._25_-_No._11_in_A_minor_%27Winter_Wind%27_(Edward_Neeman).flac?embedplayer=yes",
+    "op25no12":"https://commons.wikimedia.org/wiki/File:Chopin_-_12_%C3%89tudes,_Op._25_-_No._12_in_C_minor_%27Ocean%27_(Edward_Neeman).flac?embedplayer=yes"
 }`;
 var musicSources = JSON.parse(musicSources);
 var musicData = `{
-    "op10no1":"Bernd Krueger"
+    "op10no1":"Edward Neeman",
+    "op10no2":"Edward Neeman",
+    "op10no3":"Edward Neeman",
+    "op10no4":"Edward Neeman",
+    "op10no5":"Edward Neeman",
+    "op10no6":"Edward Neeman",
+    "op10no7":"Edward Neeman",
+    "op10no8":"Edward Neeman",
+    "op10no9":"Edward Neeman",
+    "op10no10":"Edward Neeman",
+    "op10no11":"Edward Neeman",
+    "op10no12":"Edward Neeman",
+    "troisNouvelles1":"Martha Goldstein",
+    "troisNouvelles2":"Martha Goldstein",
+    "troisNouvelles3":"Martha Goldstein",
+    "op25no1":"Edward Neeman",
+    "op25no2":"Edward Neeman",
+    "op25no3":"Edward Neeman",
+    "op25no4":"Edward Neeman",
+    "op25no5":"Edward Neeman",
+    "op25no6":"Edward Neeman",
+    "op25no7":"Edward Neeman",
+    "op25no8":"Edward Neeman",
+    "op25no9":"Edward Neeman",
+    "op25no10":"Edward Neeman",
+    "op25no11":"Edward Neeman",
+    "op25no12":"Edward Neeman"
 }`;
 var musicData = JSON.parse(musicData);
 
@@ -72,6 +124,11 @@ function troisNouvelles() {
 function music(findMusic) {
     const thisSource = musicSources[findMusic];
     appMusic.innerHTML = `<iframe src="`+thisSource+`" width="100%" height="100%">`;
-    const thisData = musicData[findMusic];
-    appMusic.innerHTML = appMusic.innerHTML + "<p>this piece was played by "+thisData+"</p>";
+    var thisData = musicData[findMusic];
+    if (thisData == "Edward Neeman") {
+        var thisData = thisData + " and the audio is public domain.";
+    } else if (thisData == "Martha Goldstein") {
+        var thisData = thisData + " and the audio is <a href='https://creativecommons.org/licenses/by-sa/2.0/'>Creative Commons Attribution Share-Alike</a>.";
+    }
+    appMusic.innerHTML = appMusic.innerHTML + "<p>this piece is performed by "+thisData+"</p>";
 }
