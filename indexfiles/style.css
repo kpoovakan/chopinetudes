@@ -39,6 +39,10 @@ h1 {
     text-align: right;
     margin: 31px;
     margin-bottom: 13px;
+    a:link, a:visited, a:hover {
+        color: var(--colorAccent);
+        text-decoration: none;
+    }
 }
 
 h2 {

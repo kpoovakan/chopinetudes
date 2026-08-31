@@ -75,12 +75,18 @@ function mainMenu() {
     <br><h2>recommendations</h2><p>
         four of kpoovakan's favorite Chopin études.
     </p><p class="listing">
-    <a href="javascript:void(0);" onclick="music('op10no2')">Op. 10 No. 2, A minor, "Chromatique"</a><br>
-    <a href="javascript:void(0);" onclick="music('op10no8')">Op. 10 No. 8, F major, "Sunshine"</a><br>
-    <a href="javascript:void(0);" onclick="music('op25no9')">Op. 25 No. 9, G♭ major, "Butterfly"</a><br>
-    <a href="javascript:void(0);" onclick="music('op25no11')">Op. 25 No. 11, A minor, "Winter Wind"</a><br>
-    </p><br><h2>about this app</h2><p>
-        all audio recordings are public domain unless otherwise stated. for more licensing information, see <a href="https://github.com/kpoovakan/chopinetudes#credits-and-licensing">here</a>.
+    <a href="javascript:void(0);" onclick="music('op10no2'); removeMenu()">Op. 10 No. 2, A minor, "Chromatique"</a><br>
+    <a href="javascript:void(0);" onclick="music('op10no8'); removeMenu()">Op. 10 No. 8, F major, "Sunshine"</a><br>
+    <a href="javascript:void(0);" onclick="music('op25no9'); removeMenu()">Op. 25 No. 9, G♭ major, "Butterfly"</a><br>
+    <a href="javascript:void(0);" onclick="music('op25no11'); removeMenu()">Op. 25 No. 11, A minor, "Winter Wind"</a><br>
+    </p><br><h2>about Chopin</h2><p>
+        Frédéric François Chopin, also known as Fryderyk Franciszek Chopin, was born on 1 March 1820. He grew up in Warsaw, which was part of Poland at the time. He was an extremely talented composer of piano pieces, writing primarily for solo piano. Chopin died when he was only 39 years old, in 1849.
+        </p><p>"Chopin" is pronounced "show-pan", not "chop-ehn".</p><p>
+        Some of Chopin's compositions from early childhood are lost, but currently, more than 230 of his works survive. Like many piano pieces, most of Chopin's works are grouped into Opuses ("Op" for short) and individualized by numbers ("No" for short), like his Étude Opus 25 Number 9, or Étude Op. 25 No. 9. Chopin didn't give his Études names, but many modern people have nicknamed most of his études. For example, Étude Op. 25 No. 9 is commonly known as the Butterfly Étude.
+        </p><p>Chopin's Opus 10 and Opus 25 are collections of études; each of those opuses have 12 études each. Chopin also had a collection called Trois Nouvelles Études (meaning "three new études") which do not have an opus.
+        </p><p>The Royal Conservatory of Music (RCM) sorts piano pieces into grade levels. Only a small number of Chopin's études are RCM Grade 10; most of Chopin's études are RCM's ARCT level. ARCT is a piano grade level that is considered the equivalent of a bachelor's degree in music. If you can play one of Chopin's ARCT-level études, consider it an accomplishment!
+    </p><br><h2>about the app developer</h2><p>
+        This web app was created by <a href="/">kpoovakan</a>. She is a computer programmer, pi (and math) enthusiast, and pianist. She is currently capable of playing two of her favorite Chopin études: Étude Op. 25 No. 9 ("Butterfly") and Étude Op. 25 No. 11 ("Winter Wind"). Someday she will learn the others... (or maybe not?)
     </p>
     `;
     appContent.innerHTML = newContent;
@@ -142,4 +148,8 @@ function music(findMusic) {
         var thisData = thisData + " and the audio is <a href='https://creativecommons.org/licenses/by-sa/2.0/'>Creative Commons Attribution Share-Alike</a>.";
     }
     appMusic.innerHTML = appMusic.innerHTML + "<p>this piece is performed by "+thisData+"</p>";
+}
+
+function removeMenu() {
+    appContent.innerHTML = `<p><a href="javascript:void(0);" onclick="mainMenu()">main menu</a></p>`;
 }
