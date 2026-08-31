@@ -44,9 +44,11 @@ h1 {
 h2 {
     font-family: "Chopin Script";
     color: var(--colorAccent);
-    font-size: 33.14px;
+    font-size: 50px;
     text-align: left;
-    margin: 31px;
+    margin: 0;
+    margin-top: 31px;
+    margin-bottom: 13px;
 }
 
 h3 {
