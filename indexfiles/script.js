@@ -65,6 +65,7 @@ var musicData = JSON.parse(musicData);
 
 function mainMenu() {
     const newContent = `
+    <h2>find an étude</h2>
     <p>Chopin organized his études into three groups; please select a group to find an étude.</p><br>
     <div class="opusMenu">
         <a href="javascript:void(0);" onclick="opus10()"><img src="indexfiles/opus10.svg" alt="Opus 10" /></a>
