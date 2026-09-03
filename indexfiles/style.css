@@ -1,10 +1,10 @@
 @charset "UTF-8";
 :root {
-    --colorBackground: #F5E9E2;
-    --colorForeground: #0B0014;
-    --colorAccent: #773344;
-    --colorLight: #E3B5A4;
-    --colorDark: #D44D5C;
+    --colorBackground: #0c1821;
+    --colorForeground: #ccc9dc;
+    --colorAccent: #5F7A8F;
+    --colorLight: #1b2a41;
+    --colorDark: #000000;
     /* color palette: https://coolors.co/palette/773344-e3b5a4-f5e9e2-0b0014-d44d5c */
 }
 @font-face {
@@ -102,6 +102,15 @@ h3 {
 
 .music {
     width: min(80vw, 1000px);
-    height: min(10vw, 125px);
+    height: min(4vw, 50px);
     margin: 13px auto;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+}
+
+iframe {
+    border: none;
+    border-radius: 3px;
+    outline: none;
 }
