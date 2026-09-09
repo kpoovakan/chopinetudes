@@ -79,7 +79,7 @@ function mainMenu() {
     <a href="javascript:void(0);" onclick="music('op10no8'); removeMenu()">Op. 10 No. 8, F major, "Sunshine"</a><br>
     <a href="javascript:void(0);" onclick="music('op25no9'); removeMenu()">Op. 25 No. 9, G♭ major, "Butterfly"</a><br>
     <a href="javascript:void(0);" onclick="music('op25no11'); removeMenu()">Op. 25 No. 11, A minor, "Winter Wind"</a><br>
-    </p><br><h2>about Chopin</h2><p>
+    </p><br><h2 id="about-chopin">about Chopin</h2><p>
         Frédéric François Chopin, also known as Fryderyk Franciszek Chopin, was born on 1 March 1820. He grew up in Warsaw, which was part of Poland at the time. He was an extremely talented composer of piano pieces, writing primarily for solo piano. Chopin died when he was only 39 years old, in 1849.
         </p><p>"Chopin" is pronounced "show-pan", not "chop-ehn".</p><p>
         Some of Chopin's compositions from early childhood are lost, but currently, more than 230 of his works survive. Like many piano pieces, most of Chopin's works are grouped into Opuses ("Op" for short) and individualized by numbers ("No" for short), like his Étude Opus 25 Number 9, or Étude Op. 25 No. 9. Chopin didn't give his Études names, but many modern people have nicknamed most of his études. For example, Étude Op. 25 No. 9 is commonly known as the Butterfly Étude.
