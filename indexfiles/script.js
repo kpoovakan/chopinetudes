@@ -18,18 +18,18 @@ var musicSources = `{
     "troisNouvelles1":"https://upload.wikimedia.org/wikipedia/commons/3/3c/Frederic_Chopin_-_Etude%2C_F_minor_no_opus.ogg",
     "troisNouvelles2":"https://upload.wikimedia.org/wikipedia/commons/a/a6/Frederic_Chopin_-_Etude%2C_Ab_major_no_opus.ogg",
     "troisNouvelles3":"https://upload.wikimedia.org/wikipedia/commons/9/98/Frederic_Chopin_-_Etude%2C_Db_major_no_opus.ogg",
-    "op25no1":"https://commons.wikimedia.org/wiki/File:Chopin_-_12_%C3%89tudes,_Op._25_-_No._1_in_A-Flat_major_%27Harp_Study%27_(Edward_Neeman).flac?embedplayer=yes",
-    "op25no2":"https://commons.wikimedia.org/wiki/File:Chopin_-_12_%C3%89tudes,_Op._25_-_No._2_in_F_minor_%27The_Bees%27_(Edward_Neeman).flac?embedplayer=yes",
-    "op25no3":"https://commons.wikimedia.org/wiki/File:Chopin_-_12_%C3%89tudes,_Op._25_-_No._3_in_F_major_%27The_Horseman%27_(Edward_Neeman).flac?embedplayer=yes",
-    "op25no4":"https://commons.wikimedia.org/wiki/File:Chopin_-_12_%C3%89tudes,_Op._25_-_No._4_in_A_minor_%27Paganini%27_(Edward_Neeman).flac?embedplayer=yes",
-    "op25no5":"https://commons.wikimedia.org/wiki/File:Chopin_-_12_%C3%89tudes,_Op._25_-_No._5_in_E_minor_%27Wrong_Note%27_(Edward_Neeman).flac?embedplayer=yes",
-    "op25no6":"https://commons.wikimedia.org/wiki/File:Chopin_-_12_%C3%89tudes,_Op._25_-_No._6_in_G-Sharp_minor_%27Thirds%27_(Edward_Neeman).flac?embedplayer=yes",
-    "op25no7":"https://commons.wikimedia.org/wiki/File:Chopin_-_12_%C3%89tudes,_Op._25_-_No._7_in_C-Sharp_minor_%27Cello%27_(Edward_Neeman).flac?embedplayer=yes",
-    "op25no8":"https://commons.wikimedia.org/wiki/File:Chopin_-_12_%C3%89tudes,_Op._25_-_No._8_in_D-Flat_major_%27Sixths%27_(Edward_Neeman).flac?embedplayer=yes",
-    "op25no9":"https://commons.wikimedia.org/wiki/File:Chopin_-_12_%C3%89tudes,_Op._25_-_No._9_in_G-Flat_major_%27Butterfly_Wings%27_(Edward_Neeman).flac?embedplayer=yes",
-    "op25no10":"https://commons.wikimedia.org/wiki/File:Chopin_-_12_%C3%89tudes,_Op._25_-_No._10_in_B_minor_%27Octave%27_(Edward_Neeman).flac?embedplayer=yes",
-    "op25no11":"https://commons.wikimedia.org/wiki/File:Chopin_-_12_%C3%89tudes,_Op._25_-_No._11_in_A_minor_%27Winter_Wind%27_(Edward_Neeman).flac?embedplayer=yes",
-    "op25no12":"https://commons.wikimedia.org/wiki/File:Chopin_-_12_%C3%89tudes,_Op._25_-_No._12_in_C_minor_%27Ocean%27_(Edward_Neeman).flac?embedplayer=yes"
+    "op25no1":"https://upload.wikimedia.org/wikipedia/commons/a/a6/Chopin_-_12_%C3%89tudes%2C_Op._25_-_No._1_in_A-Flat_major_%27Harp_Study%27_%28Edward_Neeman%29.flac",
+    "op25no2":"https://upload.wikimedia.org/wikipedia/commons/3/33/Chopin_-_12_%C3%89tudes%2C_Op._25_-_No._2_in_F_minor_%27The_Bees%27_%28Edward_Neeman%29.flac",
+    "op25no3":"https://upload.wikimedia.org/wikipedia/commons/a/af/Chopin_-_12_%C3%89tudes%2C_Op._25_-_No._3_in_F_major_%27The_Horseman%27_%28Edward_Neeman%29.flac",
+    "op25no4":"https://upload.wikimedia.org/wikipedia/commons/8/86/Chopin_-_12_%C3%89tudes%2C_Op._25_-_No._4_in_A_minor_%27Paganini%27_%28Edward_Neeman%29.flac",
+    "op25no5":"https://upload.wikimedia.org/wikipedia/commons/6/6c/Chopin_-_12_%C3%89tudes%2C_Op._25_-_No._5_in_E_minor_%27Wrong_Note%27_%28Edward_Neeman%29.flac",
+    "op25no6":"https://upload.wikimedia.org/wikipedia/commons/3/3c/Chopin_-_12_%C3%89tudes%2C_Op._25_-_No._6_in_G-Sharp_minor_%27Thirds%27_%28Edward_Neeman%29.flac",
+    "op25no7":"https://upload.wikimedia.org/wikipedia/commons/f/f3/Chopin_-_12_%C3%89tudes%2C_Op._25_-_No._7_in_C-Sharp_minor_%27Cello%27_%28Edward_Neeman%29.flac",
+    "op25no8":"https://upload.wikimedia.org/wikipedia/commons/c/ce/Chopin_-_12_%C3%89tudes%2C_Op._25_-_No._8_in_D-Flat_major_%27Sixths%27_%28Edward_Neeman%29.flac",
+    "op25no9":"https://upload.wikimedia.org/wikipedia/commons/c/ce/Chopin_-_12_%C3%89tudes%2C_Op._25_-_No._9_in_G-Flat_major_%27Butterfly_Wings%27_%28Edward_Neeman%29.flac",
+    "op25no10":"https://upload.wikimedia.org/wikipedia/commons/a/ad/Chopin_-_12_%C3%89tudes%2C_Op._25_-_No._10_in_B_minor_%27Octave%27_%28Edward_Neeman%29.flac",
+    "op25no11":"https://upload.wikimedia.org/wikipedia/commons/1/19/Chopin_-_12_%C3%89tudes%2C_Op._25_-_No._11_in_A_minor_%27Winter_Wind%27_%28Edward_Neeman%29.flac",
+    "op25no12":"https://upload.wikimedia.org/wikipedia/commons/a/a2/Chopin_-_12_%C3%89tudes%2C_Op._25_-_No._12_in_C_minor_%27Ocean%27_%28Edward_Neeman%29.flac"
 }`;
 var musicSources = JSON.parse(musicSources);
 var musicData = `{
