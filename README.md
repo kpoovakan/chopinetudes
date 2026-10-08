@@ -1,4 +1,5 @@
 # ChopinEtudes  
+This experiment is a music player for Chopin's piano études!  
 ![thumbnail](indexfiles/thumbnail.webp)  
 
 ## Quick Description
@@ -10,7 +11,7 @@ Good question! In classical piano, there are many different types of piano piece
 ## Who's Chopin?
 Chopin (pronounced "show-pan", not "chop-ehn") was a composer of the 1800s. He wrote over 230 prestigious piano pieces, mostly for solo piano. 27 of his piano pieces were [études](#whats-an-étude), most of which are categorized (by the RCM) as ARCT. Learn more about Chopin and all this ARCT stuff [here](https://kpoovakan.github.io/chopinetudes/#about-chopin).
 
-## Credits
+## Credits And Thank-You's
 * All code has been created by [kpoovakan](https://kpoovakan.github.io).
 * All musical assets are from Wikimedia Commons; we are not affiliated with Wikimedia Commons. Unless otherwise stated, all musical assets are public domain.
 * Favicon (music note) icon created by Newbzy. <small>[source](https://commons.wikimedia.org/wiki/File:Music_note.svg)</small>
